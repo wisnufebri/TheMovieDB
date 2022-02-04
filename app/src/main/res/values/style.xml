@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ButtonBackBlack">
+        <item name="android:layout_width">47dp</item>
+        <item name="android:layout_height">47dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:background">@drawable/bg_fill_transparent</item>
+        <item name="android:src">@drawable/ic_arrow_back</item>
+        <item name="android:padding">13dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+</resources>
