@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">TheMovieSuperApp</string>
+    <string name="discover">Discover</string>
+    <string name="intro">What’s new movie today</string>
     <string name="movie_backdrop_image">Movie Backdrop Image</string>
     <string name="movie_thumbnail_image">Movie Thumbnail Image</string>
     <string name="release_date">Release Date</string>

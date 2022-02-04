@@ -100,8 +100,6 @@ class DetailFragment : Fragment(R.layout.fragment_detail) {
         movie.backdrop_path?.let { picassoLoadImages(it, binding.movieBackdrop) }
         binding.releaseDate.text = movie.release_date
         binding.rating.text = movie.vote_average.toString()
-        binding.movieTitle.text = movie.title
-        binding.movieTitle.text = movie.title
         binding.synopsis.text = movie.overview
         binding.tvNavTitle.text = movie.title
         binding.btnBack.setOnClickListener { }

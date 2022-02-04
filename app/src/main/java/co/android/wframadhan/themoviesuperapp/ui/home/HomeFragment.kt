@@ -38,12 +38,16 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
         val binding = FragmentHomeBinding.bind(view)
         _binding = binding
         viewModel = ViewModelProvider(this, viewModelFactory).get(HomeViewModel::class.java)
-        setupRecyclerView()
         viewModel.onViewLoaded()
+        initView()
+
+    }
+
+    private fun initView() {
         observeviewState()
         observeClick()
         changeStatusBar(R.color.colorHomeBg)
-
+        setupRecyclerView()
     }
 
     override fun onHiddenChanged(hidden: Boolean) {
